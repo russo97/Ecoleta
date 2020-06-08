@@ -5,7 +5,8 @@ const app = express();
 app.get('/users', (request, response) => {
     response.json([
         'Wanderson',
-        'Diego'
+        'Diego',
+        'Daniel'
     ]);
 
     console.log('listagem de usuários');
